@@ -39,7 +39,7 @@ public class MyClass {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@placeholder='Collection Name']")).sendKeys("dresses");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@placeholder='DD-MM-YYYY']")).sendKeys("17-11-2019");
+		driver.findElement(By.xpath("//input[@placeholder='DD-MM-YYYY']")).sendKeys("20-11-2019");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='Add notes or priorities']")).sendKeys("collection of dresses");
 		Thread.sleep(2000);
